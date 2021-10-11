@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mqtt-web"
+    }
+  },
+  "defaultProject": "mqtt-web",
+  "cli": {
+    "analytics": "27f951c9-d4c3-4993-91ce-31f9548e7071"
+  }
 }
