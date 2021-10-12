@@ -25,5 +25,19 @@ export class AppComponent {
         console.log(error);
       });
 
+
+
   }
+
+  publishMessageRandom(flag: boolean) {
+    this.http.get(`${this.apiServerUrl}/random/${flag}`).subscribe(
+      (response: any) => {
+        console.log(response);
+      }, (error: HttpErrorResponse) => {
+        console.log(error);
+      });
+
+  }
+
+
 }
